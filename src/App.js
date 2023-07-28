@@ -98,7 +98,6 @@ function App() {
         {filteredWhy.map((item, index) => (
             <WhyItem
                 key={index}
-                // index={index}
                 item={item}
                 deleteWhyItem={deleteWhyItem}
                 completeWhyItem={completeWhyItem}
